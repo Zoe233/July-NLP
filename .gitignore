@@ -1,3 +1,11 @@
 
 Lec 09 Word2Vec/Projects/kaggle-data/attributes.csv
 Lec 09 Word2Vec/Projects/kaggle-data/product_descriptions.csv
+Lec 09 Word2Vec/files/zhwiki-latest-pages-articles.xml.bz2
+Lec 09 Word2Vec/files/wiki.zh.text
+Lec 09 Word2Vec/files/wiki.zh.text.seg
+Lec 09 Word2Vec/files/wiki.zh.text.vector
+Lec 09 Word2Vec/files/wiki.zh.text.model
+Lec 09 Word2Vec/files/wiki.zh.text.model.wv.vectors.npy
+Lec 09 Word2Vec/files/wiki.zh.text.model.trainables.syn1neg.npy
+Lec 09 Word2Vec/tf实现文本分类的CNN实战/cnn-text-classification-tf-master.zip
