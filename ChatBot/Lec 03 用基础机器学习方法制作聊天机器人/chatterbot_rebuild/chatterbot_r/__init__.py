@@ -2,7 +2,7 @@
 ChatterBot is a machine learning, conversational dialog engine.
 """
 
-from .chatterbot import ChatterBot
+from .chatterbot_r import ChatBot_r
 
 __version__ = '0.8.7'
 __author__ = 'Gunther Cox '
