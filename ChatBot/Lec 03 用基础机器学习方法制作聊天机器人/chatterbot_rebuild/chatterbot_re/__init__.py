@@ -9,4 +9,4 @@ __author__ = 'Gunther Cox '
 __email__ = 'gunthercx@gmail.com'
 __url__ = 'https://github.com/gunthercox/ChatterBot'
 
-__all__ = ('ChatBot',)
+__all__ = ('ChatBot_r',)
