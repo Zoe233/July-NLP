@@ -68,10 +68,33 @@ def create_vocab(input_iter, min_frequency):
     vocab_processor.fit(input_iter)
     return vocab_processor
 
+def transform_sentence(sequence, vocab_processor):
+    '''
+    Maps a single sentence into integer vocabulary.
+    Returns a python array.
+    '''
+    return next(vocab_processor.transform([sequence])).tolist()
+
+def create_text_sequence_feature(fl, sentence, sentence_len, vocab):
+    '''
+    Writes a sentence to FeatureList protocol buffer.
+    '''
+    sentence_transformed = transform_sentence(sentence, vocab)
+    for word_id in sentence_transformed:
+        fl.feature.add().int64_list.value.extend([word_id])
+    return fl
 
 
 if __name__=='__main__':
-    c = create_csv_iter(TEST_PATH)
-    for i in range(2):
-        print(c.__next__())
+    # c = create_csv_iter(TEST_PATH)
+    # for i in range(1):
+    #     value = c.__next__()
+
+
+    print("Creating vocabulary...")
+    input_iter = create_csv_iter(TRAIN_PATH)
+    # train.csv文件的列为['Context', 'Utterance', 'Label'
+    input_iter = (x[0] + " " + x[1] for x in input_iter)
+    vocab = create_vocab(input_iter, min_frequency=FLAGS.min_word_frequency)
+    print(vocab)
 
