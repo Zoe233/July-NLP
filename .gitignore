@@ -18,3 +18,4 @@ TF/DATAGURU/Lec 08/graph.pb
 *.local
 *.pb
 TF/DATAGURU/Lec 08/inception_model/inception-2015-12-05.tgz
+*.jpg
