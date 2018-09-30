@@ -11,3 +11,10 @@ Lec 09 Word2Vec/files/wiki.zh.text.model.trainables.syn1neg.npy
 Lec 09 Word2Vec/tf实现文本分类的CNN实战/cnn-text-classification-tf-master.zip
 ChatBot/Lec 05 深度学习聊天机器人原理/ubuntu_dataset/train.csv
 ChatBot/Lec 05 深度学习聊天机器人原理/chatbot_dl_retrieval/ubuntu_dataset/train.csv
+TF/DATAGURU/Lec 06/logs/test/events.out.tfevents.1538208611.promote.cache-dns.local
+TF/DATAGURU/Lec 06/logs/train/events.out.tfevents.1538208611.promote.cache-dns.local
+TF/DATAGURU/Lec 06/logs/test/events.out.tfevents.1538208611.promote.cache-dns.local
+TF/DATAGURU/Lec 08/graph.pb
+*.local
+*.pb
+TF/DATAGURU/Lec 08/inception_model/inception-2015-12-05.tgz
