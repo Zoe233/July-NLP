@@ -19,3 +19,7 @@ TF/DATAGURU/Lec 08/graph.pb
 *.pb
 TF/DATAGURU/Lec 08/inception_model/inception-2015-12-05.tgz
 *.jpg
+TF/DATAGURU/Lec 06/logs/test/events.out.tfevents.1538208611.promote.cache-dns.local
+TF/DATAGURU/Lec 06/logs/test/events.out.tfevents.1538208611.promote.cache-dns.local
+*.local
+TF/DATAGURU/Lec 06/logs/test/events.out.tfevents.1538208611.promote.cache-dns.local
