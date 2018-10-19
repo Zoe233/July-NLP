@@ -1,0 +1,2 @@
+model_checkpoint_path: "lec01"
+all_model_checkpoint_paths: "lec01"
